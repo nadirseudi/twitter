@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="../Style/tailwind.css">
+    <script src="https://code.jquery.com/jquery-3.7.1.min.js" defer></script>
+    <script src="../Script/connexion.js" defer></script>
+    <title> Connexion </title>
+</head>
+
+<body class="bg-black">
+    <header class="flex justify-center">
+        <img class="w-[10%] h-auto md:w-[50%] lg:w-[20%] text-center invert" src="../Image/logo_twitter.png" alt="logo-twitter">
+    </header>
+    <div class="max-w-md mx-auto p-6">
+        <h1 class="text-2xl font-bold mb-4 text-white"> Se connecter </h1>
+        <form id="form">
+            <div class="mb-4">
+                <label for="email" class="block mb-1 text-white">E-mail :</label>
+                <input type="email" id="email" name="email" class="w-full border border-gray-300 p-2"
+                    placeholder="Votre e-mail">
+            </div>
+            <div class="mb-4">
+                <label for="mot_de_passe" class="block mb-1 text-white">Mot de passe :</label>
+                <input type="password" id="mot_de_passe" name="mot_de_passe" class="w-full border border-gray-300 p-2"
+                    placeholder="Votre mot de passe">
+            </div>
+            <div class="flex flex-col gap-5">
+                <button type="submit" class="bg-blue-500 text-white py-2 px-4 rounded-full hover:bg-blue-700"
+                    id="btnsbubmit">Se
+                    connecter</button>
+                <a href="#"
+                    class="flex bg-blue-500 justify-center text-white py-2 px-4 rounded-full hover:bg-blue-700">Mot de
+                    passe oublié
+                    ?</a>
+            </div>
+
+        </form>
+    </div>
+    <div class="max-w-md mx-auto p-6">
+        <a href="inscription.html"
+            class="mb-4 mt-4 bg-blue-500 w-64 hover:bg-black-700 text-white font-bold py-2 px-4 rounded-full">
+            Créer un compte
+        </a>
+    </div>
+</body>
+
+</html>
